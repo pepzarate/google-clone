@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 5px;
+}
+
+.menu-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.profile{
+    border-radius: 20px;
+}
+section.principal{
+    height: 70vh;
+}
+.principal{
+    text-align: center;
+
+}
+
+.logo-google{
+    width: 270px;
+    height: 92px;
+}
+footer ul{
+    display: flex;
+}
